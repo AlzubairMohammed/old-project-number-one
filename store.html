@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="./css/bootstrap.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+        integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+    <meta charset="UTF-8">
+    <!-- IE compatiblity meta -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- first mobile meta    -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Apple store</title>
+</head>
+
+<body>
+    <!-- Start recycle -->
+    <img id="cart" src="./images/cart4.svg" alt="">
+    <button id="cart_btn">0</button>
+    <!-- End recycle -->
+    <!-- start my navbar-->
+    <nav class="navbar fixed-top navbar-expand-lg navbar navbar-dark bg-dark">
+        <div class="container-fluid">
+            <i class="fab fa-apple f2-apple"></i>
+            <a class="navbar-brand" href="#">Apple</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="home.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="store.html">Store</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="fourm.html">Fourm</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                          Categories
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                          <li><a class="dropdown-item A_btn3" id="" href="store.html#upperclass">Upper class</a></li>
+                          <li><a class="dropdown-item A_btn2" id="" href="store.html#middleclass">Middle class</a></li>
+                          <li><hr class="dropdown-divider"></li>
+                          <li><a class="dropdown-item A_btn1" id="" href="store.html#lowerclass">Lower class</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Contact</a>
+                    </li>
+                </ul>
+                <form class="d-flex">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+    <!-- End my navbar-->
+    <div class="row">
+        <div class="col-lg-2 col-md-3 col-sm-6 col-xs-12">
+            <!-- Start Accordion -->
+            <div class="accordion accordion-flush" id="accordionFlushExample">
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="flush-headingOne">
+                        <button class="A_btn1 accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                            100 - 200 $
+                        </button>
+                    </h2>
+                    <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne"
+                        data-bs-parent="#accordionFlushExample">
+                        <div class="accordion-body">Placeholder content for this accordion, which is intended to
+                            demonstrate the <code>.accordion-flush</code> class. This is the third item's accordion
+                            body. Nothing more exciting happening here in terms of content, but just filling up the
+                            space to make it look, at least at first glance, a bit more representative of how this would
+                            look in a real-world application.</div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="flush-headingTwo">
+                        <button class="A_btn2 accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                            200 - 400 $
+                        </button>
+                    </h2>
+                    <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo"
+                        data-bs-parent="#accordionFlushExample">
+                        <div class="accordion-body">Placeholder content for this accordion, which is intended to
+                            demonstrate the <code>.accordion-flush</code> class. This is the third item's accordion
+                            body. Nothing more exciting happening here in terms of content, but just filling up the
+                            space to make it look, at least at first glance, a bit more representative of how this would
+                            look in a real-world application.</div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="flush-headingThree">
+                        <button class="A_btn3 accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#flush-collapseThree" aria-expanded="false"
+                            aria-controls="flush-collapseThree">
+                            400 - 600 $
+                        </button>
+                    </h2>
+                    <div id="flush-collapseThree" class="accordion-collapse collapse"
+                        aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+                        <div class="accordion-body">Placeholder content for this accordion, which is intended to
+                            demonstrate the <code>.accordion-flush</code> class. This is the third item's accordion
+                            body. Nothing more exciting happening here in terms of content, but just filling up the
+                            space to make it look, at least at first glance, a bit more representative of how this would
+                            look in a real-world application.</div>
+                    </div>
+                </div>
+            </div>
+            <!-- End Accordion -->
+        </div>
+        <div class="col-lg-10 col-md-9 col-sm-6 col-xs-12">
+            <!-- Start tab -->
+            <ul class="nav nav-tabs">
+                <li class="nav-item">
+                    <a id="A_tab" class="nav-link active" aria-current="page" href="#all">All</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#upperclass">Upper class</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#lowerclass">Lower class</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#middleclass" class="nav-link">Middle class</a>
+                </li>
+            </ul>
+            <div class="tab-content">
+                <div class="tab-pane active" id="upperclass">
+                    <div class="border row g-0 rounded shadow-sm">
+                        <div  class="card col-lg-2 col-md-2 col-sm-2 col-xs-2 " style="width: 17.46rem;">
+                            <img src="./images/vista-wei-oLl-PEbpoCg-unsplash.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Card title</h5>
+                                <p class="card-text">Some quick example text to build on the card title and make up the
+                                    bulk .
+                                    price:<span>250</span>$</p>
+                                <a  value="12" class="btn btn-primary">Go somewhere</a>
+                            </div>
+                        </div>
+                        <div value="1" class="card col-lg-2 col-md-2 col-sm-2 col-xs-2" style="width: 17.46rem;">
+                            <img src="./images/alexander-andrews-Wzs4-QEmCUQ-unsplash.jpg" class="card-img-top"
+                                alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Card title</h5>
+                                <p class="card-text">Some quick example text to build on the card title and make up the
+                                    bulk .
+                                    price:<span>300</span>$</p>
+                                <a  class="btn btn-primary">Go somewhere</a>
+                            </div>
+                        </div>
+                        <div value="2" class="card col-lg-2 col-md-2 col-sm-2 col-xs-2" style="width: 17.46rem;">
+                            <img src="./images/daniel-romero-Ie-ZZ2WcXIw-unsplash.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Card title</h5>
+                                <p class="card-text">Some quick example text to build on the card title and make up the
+                                    bulk .
+                                    price:<span>200</span>$</p>
+                                <a  class="btn btn-primary">Go somewhere</a>
+                            </div>
+                        </div>
+                        <div value="3" class="card col-lg-2 col-md-2 col-sm-2 col-xs-2" style="width: 17.46rem;">
+                            <img src="./images/lorenzo-rui-J7xrBW_oYJc-unsplash.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Card title</h5>
+                                <p class="card-text">Some quick example text to build on the card title and make up the
+                                    bulk .
+                                    price:<span>350</span>$</p>
+                                <a  class="btn btn-primary">Go somewhere</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div value="4" class="tab-pane active" id="middleclass">
+                    <div class="border row g-0 rounded shadow-sm">
+                        <div class="card col-lg-2 col-md-2 col-sm-2 col-xs-2" style="width: 17.46rem;">
+                            <img src="./images/balazs-ketyi-mQFUoE6dtpY-unsplash.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Card title</h5>
+                                <p class="card-text">Some quick example text to build on the card title and make up the
+                                    bulk .
+                                    price:<span>400</span>$</p>
+                                <a  class="btn btn-primary">Go somewhere</a>
+                            </div>
+                        </div>
+                        <div value="5" class="card col-lg-2 col-md-2 col-sm-2 col-xs-2" style="width: 17.46rem;">
+                            <img src="./images/wesley-tingey-sPBRRwT_fKA-unsplash.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Card title</h5>
+                                <p class="card-text">Some quick example text to build on the card title and make up the
+                                    bulk .
+                                    price:<span>450</span>$</p>
+                                <a  class="btn btn-primary">Go somewhere</a>
+                            </div>
+                        </div>
+                        <div value="6" class="card col-lg-2 col-md-2 col-sm-2 col-xs-2 " style="width: 17.46rem;">
+                            <img src="./images/kevin-bhagat-Co-usQ-kpO0-unsplash.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Card title</h5>
+                                <p class="card-text">Some quick example text to build on the card title and make up the
+                                    bulk .
+                                    price:<span>500</span>$</p>
+                                <a  class="btn btn-primary">Go somewhere</a>
+                            </div>
+                        </div>
+                        <div value="7" class="card col-lg-2 col-md-2 col-sm-2 col-xs-2" style="width: 17.46rem;">
+                            <img src="./images/luis-cortes-fsUjojQV_Yg-unsplash.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Card title</h5>
+                                <p class="card-text">Some quick example text to build on the card title and make up the
+                                    bulk .
+                                    price:<span>600</span>$</p>
+                                <a  class="btn btn-primary">Go somewhere</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="tab-pane active" id="lowerclass">
+                    <div class="border row g-0 rounded shadow-sm">
+                        <div value="8" class="card col-lg-2 col-md-2 col-sm-2 col-xs-2" style="width: 17.46rem;">
+                            <img src="./images/onur-binay-OKjJZNTl004-unsplash.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Card title</h5>
+                                <p class="card-text">Some quick example text to build on the card title and make up the
+                                    bulk .
+                                    price:<span>100</span>$</p>
+                                <a  class="btn btn-primary">Go somewhere</a>
+                            </div>
+                        </div>
+
+                        <div value="9" class="card col-lg-2 col-md-2 col-sm-2 col-xs-2" style="width: 17.46rem;">
+                            <img src="./images/daniel-romero-4P3jflrqJhA-unsplash.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Card title</h5>
+                                <p class="card-text">Some quick example text to build on the card title and make up the
+                                    bulk .
+                                    price:<span>150</span>$</p>
+                                <a  class="btn btn-primary">Go somewhere</a>
+                            </div>
+                        </div>
+                        <div value="10" class="card col-lg-2 col-md-2 col-sm-2 col-xs-2" style="width: 17.46rem;">
+                            <img src="./images/pexels-torsten-dettlaff-193004.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Card title</h5>
+                                <p class="card-text">Some quick example text to build on the card title and make up the
+                                    bulk .
+                                    price:<span>190</span>$</p>
+                                <a  class="btn btn-primary">Go somewhere</a>
+                            </div>
+                        </div>
+                        <div value="11" class="card col-lg-2 col-md-2 col-sm-2 col-xs-2" style="width: 17.46rem;">
+                            <img src="./images/neil-soni-6wdRuK7bVTE-unsplash.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Card title</h5>
+                                <p class="card-text">Some quick example text to build on the card title and make up the
+                                    bulk .
+                                    price:<span>170</span>$</p>
+                                <a  class="btn btn-primary">Go somewhere</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- End tab -->
+        </div>
+    </div>
+    <!-- Start footer -->
+    <footer class="bd-footer py-5 mt-5 bg-light">
+        <div class="container py-5">
+            <div class="row">
+                <div class="col-lg-3 mb-3">
+                    <a class="d-inline-flex align-items-center mb-2 link-dark text-decoration-none" href="/"
+                        aria-label="Bootstrap">
+                        <i class="fab fa-apple f1-apple"></i>
+                        <span class="fs-5">Apple</span>
+                    </a>
+                    <ul class="list-unstyled small text-muted">
+                        <li class="mb-2">This is store done by our team in two days yoou can flow us by this link <a
+                                href="facebook.com/alzubair0">SAS team</a> with the help of <a
+                                href="https://github.com/twbs/bootstrap/graphs/contributors">our contributors</a>.</li>
+                        <li class="mb-2">Code licensed <a href="https://github.com/twbs/bootstrap/blob/main/LICENSE"
+                                target="_blank" rel="license noopener">SAS</a></li>
+                        <li class="mb-2">Done by Alzubair</li>
+                    </ul>
+                </div>
+                <div class="col-6 col-lg-2 offset-lg-1 mb-3">
+                    <h5>Pages</h5>
+                    <ul class="list-unstyled">
+                        <li class="mb-2"><a href="home.html">Home</a></li>
+                        <li class="mb-2"><a href="store.html">Store</a></li>
+                        <li class="mb-2"><a href="contact.html">Contact</a></li>
+                        <li class="mb-2"><a href="fourm.html">Fourm</a></li>
+                    </ul>
+                </div>
+                <div class="col-6 col-lg-2 mb-3">
+                    <h5>categories</h5>
+                    <ul class="list-unstyled">
+                        <li class="mb-2"><a href="store.html#upperclass">Upper Class</a></li>
+                        <li class="mb-2"><a href="store.html#middleclass">Middle class</a></li>
+                        <li class="mb-2"><a href="store.html#lowerclass">Lower class</a></li>
+                    </ul>
+                </div>
+                <div class="col-6 col-lg-2 mb-3">
+                    <h5>Projects</h5>
+                    <ul class="list-unstyled">
+                        <li class="mb-2"><a href="https://github.com/twbs/bootstrap">jQuery</a></li>
+                        <li class="mb-2"><a href="https://github.com/twbs/bootstrap/tree/v4-dev">Bootstrap</a></li>
+                        <li class="mb-2"><a href="https://github.com/twbs/icons">HTML</a></li>
+                        <li class="mb-2"><a href="https://github.com/twbs/rfs">CSS</a></li>
+                        <li class="mb-2"><a href="https://github.com/twbs/bootstrap-npm-starter">Java Script</a></li>
+                    </ul>
+                </div>
+                <div class="col-6 col-lg-2 mb-3">
+                    <h5>Community</h5>
+                    <ul class="list-unstyled">
+                        <li class="mb-2"><a href="#">Issues</a></li>
+                        <li class="mb-2"><a href="#">Discussions</a></li>
+                        <li class="mb-2"><a href="#">Corporate sponsors</a></li>
+                        <li class="mb-2"><a href="#">Open Collective</a></li>
+                        <li class="mb-2"><a href="#">Slack</a></li>
+                        <li class="mb-2"><a href="#">Stack Overflow</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- End footer -->
+</body>
+<script src="./js/jquery.min.js"></script>
+<script src="./js/bootstrap.js"></script>
+<script src="./js/JSfile.js"></script>
+
+</html>

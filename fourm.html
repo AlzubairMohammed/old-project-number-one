@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="./css/bootstrap.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+        integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+    <meta charset="UTF-8">
+    <!-- IE compatiblity meta -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- first mobile meta    -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fourm</title>
+</head>
+
+<body>
+    <!-- start my navbar-->
+    <nav class="navbar fixed-top navbar-expand-lg navbar navbar-dark bg-dark">
+        <div class="container-fluid">
+            <i class="fab fa-apple f2-apple"></i>
+            <a class="navbar-brand" href="#">Apple</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="home.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="store.html">Store</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="fourm.html">Fourm</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                          Categories
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                          <li><a class="dropdown-item A_btn3" id="" href="store.html#upperclass">Upper class</a></li>
+                          <li><a class="dropdown-item A_btn2" id="" href="store.html#middleclass">Middle class</a></li>
+                          <li><hr class="dropdown-divider"></li>
+                          <li><a class="dropdown-item A_btn1" id="" href="store.html#lowerclass">Lower class</a></li>
+                        </ul>
+                      </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Contact</a>
+                    </li>
+                </ul>
+                <form class="d-flex">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+    <!-- End my navbar-->
+    <div class="L-group container">
+        <!-- Start List Group -->
+        <ul class="list-group" id="L-group1">
+            <li class="list-group-item">
+                <!-- Start Media -->
+                <div class="media">
+                    <div class="media-body">
+                        <h5 class="mt-0 mb-1">Mohammed Hassan</h5>
+                        Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras
+                        purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi
+                        vulputate fringilla. Donec lacinia congue felis in faucibus.
+                    </div>
+                    <img class="ml-3" src="./images/person.svg" alt="Generic placeholder image">
+                </div>
+                <!-- End Media -->
+            </li>
+            <li class="list-group-item">
+                <!-- Start Media -->
+                <div class="media">
+                    <div class="media-body">
+                        <h5 class="mt-0 mb-1">Ahmed Ali</h5>
+                        Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras
+                        purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi
+                        vulputate fringilla. Donec lacinia congue felis in faucibus.
+                    </div>
+                    <img class="ml-3" src="./images/person.svg" alt="Generic placeholder image">
+                </div>
+                <!-- End Media -->
+            </li>
+            <li class="list-group-item">
+                <!-- Start Media -->
+                <div class="media">
+                    <div class="media-body">
+                        <h5 class="mt-0 mb-1">Mona Hussam</h5>
+                        Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras
+                        purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi
+                        vulputate fringilla. Donec lacinia congue felis in faucibus.
+                    </div>
+                    <img class="ml-3" src="./images/person.svg" alt="Generic placeholder image">
+                </div>
+                <!-- End Media -->
+            </li>
+        </ul>
+        <li class="list-group-item">
+            <form action="#">
+                <div class="mb-3">
+                    <label for="exampleFormControlInput1" value="1" class="form-label">Your name</label>
+                    <input type="text" class="form-control" id="exampleFormControlInput1">
+                </div>
+                <div class="mb-3">
+                    <label for="exampleFormControlTextarea1" class="form-label">Your comment</label>
+                    <textarea class="form-control"  value="1" id="exampleFormControlTextarea1" rows="3"></textarea>
+                </div>
+                <button class="btn btn-primary" id="F-btn" type="submit">Submit comment</button>
+            </form>
+        </li>
+        <!-- End List Group -->
+    </div>
+    <!-- Start footer -->
+    <footer class="bd-footer py-5 mt-5 bg-light">
+        <div class="container py-5">
+          <div class="row">
+            <div class="col-lg-3 mb-3">
+              <a class="d-inline-flex align-items-center mb-2 link-dark text-decoration-none" href="/" aria-label="Bootstrap">
+                <i class="fab fa-apple f1-apple"></i>
+                <span class="fs-5">Apple</span>
+              </a>
+              <ul class="list-unstyled small text-muted">
+                <li class="mb-2">This is store done by our team in two days yoou can flow us by this link <a href="facebook.com/alzubair0">SAS team</a> with the help of <a href="https://github.com/twbs/bootstrap/graphs/contributors">our contributors</a>.</li>
+                <li class="mb-2">Code licensed <a href="https://github.com/twbs/bootstrap/blob/main/LICENSE" target="_blank" rel="license noopener">SAS</a></li>
+                <li class="mb-2">Done by Alzubair</li>
+              </ul>
+            </div>
+            <div class="col-6 col-lg-2 offset-lg-1 mb-3">
+              <h5>Pages</h5>
+              <ul class="list-unstyled">
+                <li class="mb-2"><a href="home.html">Home</a></li>
+                <li class="mb-2"><a href="store.html">Store</a></li>
+                <li class="mb-2"><a href="contact.html">Contact</a></li>
+                <li class="mb-2"><a href="fourm.html">Fourm</a></li>
+              </ul>
+            </div>
+            <div class="col-6 col-lg-2 mb-3">
+              <h5>categories</h5>
+              <ul class="list-unstyled">
+                <li class="mb-2"><a href="store.html#upperclass">Upper Class</a></li>
+                <li class="mb-2"><a href="store.html#middleclass">Middle class</a></li>
+                <li class="mb-2"><a href="store.html#lowerclass">Lower class</a></li>
+              </ul>
+            </div>
+            <div class="col-6 col-lg-2 mb-3">
+              <h5>Projects</h5>
+              <ul class="list-unstyled">
+                <li class="mb-2"><a href="https://github.com/twbs/bootstrap">jQuery</a></li>
+                <li class="mb-2"><a href="https://github.com/twbs/bootstrap/tree/v4-dev">Bootstrap</a></li>
+                <li class="mb-2"><a href="https://github.com/twbs/icons">HTML</a></li>
+                <li class="mb-2"><a href="https://github.com/twbs/rfs">CSS</a></li>
+                <li class="mb-2"><a href="https://github.com/twbs/bootstrap-npm-starter">Java Script</a></li>
+              </ul>
+            </div>
+            <div class="col-6 col-lg-2 mb-3">
+              <h5>Community</h5>
+              <ul class="list-unstyled">
+                <li class="mb-2"><a href="#">Issues</a></li>
+                <li class="mb-2"><a href="#">Discussions</a></li>
+                <li class="mb-2"><a href="#">Corporate sponsors</a></li>
+                <li class="mb-2"><a href="#">Open Collective</a></li>
+                <li class="mb-2"><a href="#">Slack</a></li>
+                <li class="mb-2"><a href="#">Stack Overflow</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </footer>
+    <!-- End footer -->
+</body>
+<script src="./js/jquery.min.js"></script>
+<script src="./js/bootstrap.js"></script>
+<script src="./js/JSfile.js"></script>
+</html>
